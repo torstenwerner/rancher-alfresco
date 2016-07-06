@@ -42,5 +42,6 @@ VOLUME ["${ALF_HOME}/alf_data"]
 
 EXPOSE 21 137 138 139 445 7070 8009 8080
 
+RUN mkdir -p $ALF_HOME/modules/platform && wget -O $ALF_HOME/modules/platform/enablecors-1.0.jar https://artifacts.alfresco.com/nexus/service/local/repositories/releases/content/org/alfresco/enablecors/1.0/enablecors-1.0.jar
 
 CMD /app/run.sh
