@@ -4,7 +4,7 @@ FROM ubuntu:16.04
 MAINTAINER Sebastien LANGOUREAUX (linuxworkgroup@hotmail.com)
 
 #Alfresco version
-ENV ALF_URL=http://10.144.0.60:8080/alfresco-one-platform-installer-5.1.2-linux-x64.bin
+ENV ALF_URL=http://10.144.0.60:8080/alfresco-enterprise-4.1.10.7-installer-linux-x64.bin
 ENV ALF_HOME=/opt/alfresco
 
 
